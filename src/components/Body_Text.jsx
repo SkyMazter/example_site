@@ -20,7 +20,61 @@ function Body_Text(props) {
             accumsan ornare felis semper est conubia. Pulvinar phasellus
             condimentum blandit ipsum conubia faucibus. Tempus iaculis duis
             ornare egestas pharetra cursus est etiam. Proin proin donec
-            vulputate ornare nostra.
+            vulputate ornare nostra. Lorem ipsum odor amet, consectetuer
+            adipiscing elit. Hendrerit fringilla ornare himenaeos eget leo
+            rhoncus cras. Eros tortor accumsan ornare felis semper est conubia.
+            Pulvinar phasellus condimentum blandit ipsum conubia faucibus.
+            Tempus iaculis duis ornare egestas pharetra cursus est etiam. Proin
+            proin donec vulputate ornare nostra. Lorem ipsum odor amet,
+            consectetuer adipiscing elit. Hendrerit fringilla ornare himenaeos
+            eget leo rhoncus cras. Eros tortor accumsan ornare felis semper est
+            conubia. Pulvinar phasellus condimentum blandit ipsum conubia
+            faucibus. Tempus iaculis duis ornare egestas pharetra cursus est
+            etiam. Proin proin donec vulputate ornare nostra.
+          </p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col">
+          <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Hendrerit
+            fringilla ornare himenaeos eget leo rhoncus cras. Eros tortor
+            accumsan ornare felis semper est conubia. Pulvinar phasellus
+            condimentum blandit ipsum conubia faucibus. Tempus iaculis duis
+            ornare egestas pharetra cursus est etiam. Proin proin donec
+            vulputate ornare nostra. Lorem ipsum odor amet, consectetuer
+            adipiscing elit. Hendrerit fringilla ornare himenaeos eget leo
+            rhoncus cras. Eros tortor accumsan ornare felis semper est conubia.
+            Pulvinar phasellus condimentum blandit ipsum conubia faucibus.
+            Tempus iaculis duis ornare egestas pharetra cursus est etiam. Proin
+            proin donec vulputate ornare nostra. Lorem ipsum odor amet,
+            consectetuer adipiscing elit. Hendrerit fringilla ornare himenaeos
+            eget leo rhoncus cras. Eros tortor accumsan ornare felis semper est
+            conubia. Pulvinar phasellus condimentum blandit ipsum conubia
+            faucibus. Tempus iaculis duis ornare egestas pharetra cursus est
+            etiam. Proin proin donec vulputate ornare nostra.
+          </p>
+        </div>
+
+        <div className="col">
+          <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Hendrerit
+            fringilla ornare himenaeos eget leo rhoncus cras. Eros tortor
+            accumsan ornare felis semper est conubia. Pulvinar phasellus
+            condimentum blandit ipsum conubia faucibus. Tempus iaculis duis
+            ornare egestas pharetra cursus est etiam. Proin proin donec
+            vulputate ornare nostra. Lorem ipsum odor amet, consectetuer
+            adipiscing elit. Hendrerit fringilla ornare himenaeos eget leo
+            rhoncus cras. Eros tortor accumsan ornare felis semper est conubia.
+            Pulvinar phasellus condimentum blandit ipsum conubia faucibus.
+            Tempus iaculis duis ornare egestas pharetra cursus est etiam. Proin
+            proin donec vulputate ornare nostra. Lorem ipsum odor amet,
+            consectetuer adipiscing elit. Hendrerit fringilla ornare himenaeos
+            eget leo rhoncus cras. Eros tortor accumsan ornare felis semper est
+            conubia. Pulvinar phasellus condimentum blandit ipsum conubia
+            faucibus. Tempus iaculis duis ornare egestas pharetra cursus est
+            etiam. Proin proin donec vulputate ornare nostra.
           </p>
         </div>
       </div>

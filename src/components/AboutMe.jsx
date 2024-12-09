@@ -1,15 +1,26 @@
 import PropTypes from "prop-types";
 import Body_Text from "./Body_Text";
+import landscape from "../assets/landscape.jpg";
 
 function AboutMe(props) {
   const isDark = props.isDark;
-  const textStyle = { color: isDark && "white" };
 
   return (
-    <div>
-      <h1 className="quicksand" style={textStyle}>
-        <Body_Text isDark={isDark} />
-      </h1>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col">
+          {" "}
+          <img
+            className="rounded my-3"
+            style={{
+              width: "100%",
+              height: "70vh",
+            }}
+            src={landscape}
+          />
+        </div>
+      </div>
+      <Body_Text isDark={isDark} />
     </div>
   );
 }

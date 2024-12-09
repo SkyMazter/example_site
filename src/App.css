@@ -3,21 +3,21 @@ body {
     margin: 0;
 }
 
-.row {
+/* .row {
     display: flex;
 }
 
 .col {
     display: flex;
     align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
     width: 75px;
     height: 75px;
     margin-left: 25px;
     margin-right: 25px;
-}
+} */
 
 .bttn {
     width: 20px;
@@ -42,10 +42,18 @@ body {
     background-size: cover;
     background-origin: content-box;
 }
-
+/*
 .container {
     display: flex;
     width: 100%;
     justify-content: space-around;
     flex-direction: column;
+} */
+
+.menu-bttn {
+    border: none;
+}
+
+.menu-bttn:hover {
+    border-bottom: 1px black solid;
 }

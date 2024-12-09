@@ -6,45 +6,39 @@ function NavBar(props) {
   const handleToggleDark = props.handleToggleDark;
 
   return (
-    <div
-      className="row"
-      style={{
-        justifyContent: "space-between",
-        marginLeft: "15px",
-        marginRight: "15px",
-      }}
-    >
-      {/*Column 1 */}
-      <div className="col">
-        <FaRegMoon
-          className="bttn"
-          style={{
-            color: isDark && "white",
-          }}
-          onClick={handleToggleDark}
-        />
-      </div>
-      {/* <button onClick={handleToggleDark}>Set Dark Mode</button> */}
-      <div className="col">
-        <h1
-          className="quicksand"
-          style={{
-            color: isDark && "white",
-          }}
-        >
-          Example Website
-        </h1>
-      </div>
-      <div className="col">
-        <FaInfo
-          className="bttn"
-          style={{
-            color: isDark && "white",
-          }}
-          onClick={() => {
-            alert(isDark);
-          }}
-        />
+    <div className="container">
+      <div className="row">
+        {/*Column 1 */}
+        <div className="col d-flex justify-content-center align-items-center">
+          <FaRegMoon
+            className="bttn"
+            style={{
+              color: isDark && "white",
+            }}
+            onClick={handleToggleDark}
+          />
+        </div>
+        <div className="col col-md-10 d-flex justify-content-center align-items-center pt-2 py-md-3">
+          <h1
+            className="quicksand"
+            style={{
+              color: isDark && "white",
+            }}
+          >
+            Example Website
+          </h1>
+        </div>
+        <div className="col d-flex justify-content-center align-items-center">
+          <FaInfo
+            className="bttn"
+            style={{
+              color: isDark && "white",
+            }}
+            onClick={() => {
+              alert(isDark);
+            }}
+          />
+        </div>
       </div>
     </div>
   );
