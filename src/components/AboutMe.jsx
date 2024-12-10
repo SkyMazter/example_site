@@ -1,10 +1,7 @@
-import PropTypes from "prop-types";
 import Body_Text from "./Body_Text";
 import landscape from "../assets/landscape.jpg";
 
-function AboutMe(props) {
-  const isDark = props.isDark;
-
+function AboutMe() {
   return (
     <div className="container-fluid">
       <div className="row">
@@ -20,13 +17,9 @@ function AboutMe(props) {
           />
         </div>
       </div>
-      <Body_Text isDark={isDark} />
+      <Body_Text />
     </div>
   );
 }
-
-AboutMe.propTypes = {
-  isDark: PropTypes.bool,
-};
 
 export default AboutMe;

@@ -1,8 +1,6 @@
 import "../App.css";
-import PropTypes from "prop-types";
 
-function Body_Text(props) {
-  const isDark = props.isDark;
+function Body_Text() {
   // const textStyle = { color: isDark && "white" };
 
   return (
@@ -12,6 +10,7 @@ function Body_Text(props) {
           <h3>Title Name</h3>
         </div>
       </div>
+
       <div className="row">
         <div className="col">
           <p>
@@ -36,7 +35,7 @@ function Body_Text(props) {
       </div>
 
       <div className="row">
-        <div className="col">
+        <div className="col-md-6 col-xs-12">
           <p>
             Lorem ipsum odor amet, consectetuer adipiscing elit. Hendrerit
             fringilla ornare himenaeos eget leo rhoncus cras. Eros tortor
@@ -57,7 +56,7 @@ function Body_Text(props) {
           </p>
         </div>
 
-        <div className="col">
+        <div className="col-md-6 col-xs-12">
           <p>
             Lorem ipsum odor amet, consectetuer adipiscing elit. Hendrerit
             fringilla ornare himenaeos eget leo rhoncus cras. Eros tortor
@@ -81,9 +80,5 @@ function Body_Text(props) {
     </div>
   );
 }
-
-Body_Text.propTypes = {
-  isDark: PropTypes.bool,
-};
 
 export default Body_Text;

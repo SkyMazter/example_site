@@ -6,6 +6,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+
+import { Link } from "react-router";
+
+import hex_background from "./assets/hex_background.jpg";
 
 import {
   BsThreeDotsVertical,
@@ -21,8 +27,6 @@ import AboutMe from "./components/AboutMe";
 2.) Set up a handler function to trigger the hook
 3.) Create a button and have it call the handler function when you click it
 4.) Use the state variable in the style prop of whatever component you wish to update
-
-
 */
 
 function App() {
@@ -82,6 +86,19 @@ function App() {
 
       <AboutMe />
 
+      {/* <Row>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={hex_background}></Card.Img>
+            <Card.Body>
+              <Card.Title>Some Card</Card.Title>
+              <Card.Text>wpirughwurbgiwerugneirugbwregub</Card.Text>
+              <Button>Click ME</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row> */}
+
       <Offcanvas
         className="quicksand"
         show={show}
@@ -100,8 +117,13 @@ function App() {
         <Offcanvas.Body>
           <Container>
             <Row className="fs-5 py-1 menu-bttn">Home</Row>
-            <Row className="fs-5 py-1 menu-bttn">Gallery</Row>
+
+            <Row className="fs-5 py-1 menu-bttn">
+              <Link to={"gallery"}> Gallery</Link>
+            </Row>
+
             <Row className="fs-5 py-1 menu-bttn">About</Row>
+
             <Row className="fs-5 py-1 menu-bttn">Settings</Row>
           </Container>
         </Offcanvas.Body>
