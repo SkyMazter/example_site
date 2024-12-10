@@ -6,12 +6,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 import { Link } from "react-router";
-
-import hex_background from "./assets/hex_background.jpg";
 
 import {
   BsThreeDotsVertical,
